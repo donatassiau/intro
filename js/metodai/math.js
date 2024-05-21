@@ -116,3 +116,6 @@ console.log(Math.random());
 console.log(Math.random());
 console.log(Math.random());
 console.log(0.9999999999999999);
+
+console.log('\n Random ----------------');
+console.log(Math.sign(5));
