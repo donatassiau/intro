@@ -1,0 +1,32 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "method:number": "node --watch ./js/metodai/number.js",
+    "arrow": "node --watch ./js/funkcijos/arrow.js",
+    "matrix": "node --watch ./js/nd/matrix.js",
+    "clock": "node --watch ./js/nd/clock.js",
+    "mini": "node --watch ./js/nd/mini.js",
+    "polish": "node --watch ./codewars/polish.js",
+    "multiply": "node --watch ./js/nd/multiply.js",
+    "for": "node --watch ./js/ciklai/for.js",
+    "if": "node --watch ./js/palyginimas/if.js",
+    "math": "node --watch ./js/metodai/math.js",
+    "ternary": "node --watch ./js/palyginimas/ternary.js",
+    "array": "node --watch ./js/duomenys/array.js",
+    "boolean": "node --watch ./js/duomenys/boolean.js",
+    "function": "node --watch ./js/funkcijos/function.js",
+    "strings": "node --watch ./js/metodai/string.js",
+    "string": "node --watch ./js/duomenys/string.js",
+    "testas": "node --watch ./js/duomenys/testas.js",
+    "number": "node --watch ./js/duomenys/number.js",
+    "typeof": "node --watch ./js/duomenys/typeof.js",
+    "numberSize": "node --watch ./js/nd/numberSize.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "https://github.com/donatassiau",
+  "license": "MIT"
+}
