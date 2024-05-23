@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "des": "node --watch ./js/metodai/des.js",
+    "method:array": "node --watch ./js/metodai/array.js",
+    "spread": "node --watch ./js/metodai/spread.js",
     "method:number": "node --watch ./js/metodai/number.js",
     "arrow": "node --watch ./js/funkcijos/arrow.js",
     "matrix": "node --watch ./js/nd/matrix.js",

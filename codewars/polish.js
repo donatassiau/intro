@@ -12,40 +12,40 @@ https://www.codewars.com/kata/57ab2d6072292dbf7c000039
 ż -> z
 */
 
-// size: 812
-// function polish(string) {
-//     let result = '';
+size: 812
+function polish(string) {
+    let result = '';
 
-//     for (let i = 0; i < string.length; i++) {
-//         const letter = string[i];
+    for (let i = 0; i < string.length; i++) {
+        const letter = string[i];
 
-//         if (letter === 'ą') {
-//             result += 'a';
-//         } else if (letter === 'ć') {
-//             result += 'c';
-//         } else if (letter === 'ę') {
-//             result += 'e';
-//         } else if (letter === 'ł') {
-//             result += 'l';
-//         } else if (letter === 'ń') {
-//             result += 'n';
-//         } else if (letter === 'ó') {
-//             result += 'o';
-//         } else if (letter === 'ś') {
-//             result += 's';
-//         } else if (letter === 'ź') {
-//             result += 'z';
-//         } else if (letter === 'ż') {
-//             result += 'z';
-//         } else {
-//             result += letter;
-//         }
-//     }
+        if (letter === 'ą') {
+            result += 'a';
+        } else if (letter === 'ć') {
+            result += 'c';
+        } else if (letter === 'ę') {
+            result += 'e';
+        } else if (letter === 'ł') {
+            result += 'l';
+        } else if (letter === 'ń') {
+            result += 'n';
+        } else if (letter === 'ó') {
+            result += 'o';
+        } else if (letter === 'ś') {
+            result += 's';
+        } else if (letter === 'ź') {
+            result += 'z';
+        } else if (letter === 'ż') {
+            result += 'z';
+        } else {
+            result += letter;
+        }
+    }
 
-//     return result;
-// }
+    return result;
+}
 
-// size: 576
+size: 576
 function polish(string) {
     const polishAbc = 'ąćęłńóśźż';
     const normalAbc = 'acelnoszz';
